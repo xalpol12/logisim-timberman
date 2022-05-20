@@ -17,7 +17,7 @@
 - [ ] QUESTY????????
 
 
-#### Do zaimplementowanie poza główną gałęzią gry (można zrobić w wolnym czasie bez aktualnego maina) -> pierdoły, rzeczy kosmetyczne
+#### Do zaimplementowanie poza główną gałęzią gry (można zrobić w wolnym czasie bez aktualnego maina) = pierdoły, rzeczy kosmetyczne
 - [ ] Skiny do Timbermana
 - [ ] Inny wygląd gałęzi -  okazuje się, że istnieją osoby którym nie podoba się mój piękny projekt gałęzi
 
