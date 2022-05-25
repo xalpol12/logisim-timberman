@@ -82,24 +82,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(260,150)" to="(330,150)"/>
     <wire from="(260,240)" to="(330,240)"/>
     <wire from="(260,330)" to="(330,330)"/>
-    <comp lib="4" loc="(260,150)" name="ROM">
-      <a name="addrWidth" val="3"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 3 24
-8*7e00
-</a>
-    </comp>
-    <comp lib="0" loc="(90,150)" name="Pin">
-      <a name="width" val="3"/>
+    <comp lib="0" loc="(330,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="24"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="Counter"/>
-    </comp>
-    <comp lib="4" loc="(260,240)" name="ROM">
-      <a name="addrWidth" val="3"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 3 24
-7e00 10fe00 38fe00 7ffe00 39fe00 107e00 7e00 7e00
-</a>
+      <a name="label" val="ROM 0"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(330,330)" name="Pin">
       <a name="facing" val="west"/>
@@ -109,13 +98,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="ROM 2"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(330,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
+    <comp lib="4" loc="(260,240)" name="ROM">
+      <a name="addrWidth" val="3"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 3 24
+7e00 7e08 7f1c 7ffe 7f9c 7e08 7e00 7e00
+</a>
+    </comp>
+    <comp lib="0" loc="(90,150)" name="Pin">
+      <a name="width" val="3"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="ROM 0"/>
-      <a name="labelloc" val="east"/>
+      <a name="label" val="Counter"/>
+    </comp>
+    <comp lib="4" loc="(260,150)" name="ROM">
+      <a name="addrWidth" val="3"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 3 24
+8*7e00
+</a>
     </comp>
     <comp lib="0" loc="(330,240)" name="Pin">
       <a name="facing" val="west"/>
@@ -129,7 +129,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="addrWidth" val="3"/>
       <a name="dataWidth" val="24"/>
       <a name="contents">addr/data: 3 24
-7e00 7e08 7f1c 7ffe 7f9c 7e08 7e00 7e00
+7e00 10fe00 38fe00 7ffe00 39fe00 107e00 7e00 7e00
 </a>
     </comp>
   </circuit>
