@@ -213,318 +213,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,110)" to="(480,150)"/>
     <wire from="(520,220)" to="(520,850)"/>
     <wire from="(550,610)" to="(810,610)"/>
-    <comp lib="4" loc="(510,390)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-300000
-</a>
-    </comp>
-    <comp lib="0" loc="(850,540)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Out 3"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="2" loc="(730,720)" name="Multiplexer">
-      <a name="width" val="24"/>
-    </comp>
-    <comp lib="0" loc="(1220,380)" name="Tunnel">
-      <a name="width" val="24"/>
-      <a name="label" val="1"/>
-    </comp>
-    <comp lib="2" loc="(730,320)" name="Multiplexer">
-      <a name="width" val="24"/>
-    </comp>
-    <comp lib="0" loc="(700,810)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="24"/>
-      <a name="label" val="6"/>
-    </comp>
-    <comp lib="4" loc="(510,710)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-720000
-</a>
-    </comp>
-    <comp lib="0" loc="(850,300)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Out 0"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(390,140)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Animation Clock"/>
-    </comp>
-    <comp lib="4" loc="(510,870)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-cc0000
-</a>
-    </comp>
-    <comp lib="0" loc="(850,700)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Out 5"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(510,630)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-7e0000
-</a>
-    </comp>
-    <comp lib="0" loc="(1220,540)" name="Tunnel">
-      <a name="width" val="24"/>
-      <a name="label" val="3"/>
-    </comp>
-    <comp lib="0" loc="(700,330)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="24"/>
-      <a name="label" val="0"/>
-    </comp>
-    <comp lib="0" loc="(700,890)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="24"/>
-      <a name="label" val="7"/>
-    </comp>
-    <comp lib="4" loc="(1220,860)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-33
-</a>
-    </comp>
-    <comp lib="0" loc="(390,180)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Key impulse"/>
-    </comp>
-    <comp lib="2" loc="(730,560)" name="Multiplexer">
-      <a name="width" val="24"/>
-    </comp>
-    <comp lib="0" loc="(850,780)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Out 6"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1220,300)" name="Tunnel">
-      <a name="width" val="24"/>
-      <a name="label" val="0"/>
-    </comp>
-    <comp lib="4" loc="(1220,540)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-de
-</a>
-    </comp>
-    <comp lib="1" loc="(840,620)" name="OR Gate">
-      <a name="width" val="24"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1220,620)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-7e
-</a>
-    </comp>
-    <comp lib="7" loc="(500,150)" name="main"/>
-    <comp lib="4" loc="(1220,780)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-c
-</a>
-    </comp>
-    <comp lib="0" loc="(710,970)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Key selection"/>
-    </comp>
-    <comp lib="4" loc="(510,790)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-300000
-</a>
-    </comp>
-    <comp lib="1" loc="(840,460)" name="OR Gate">
-      <a name="width" val="24"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(700,650)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="24"/>
-      <a name="label" val="4"/>
-    </comp>
-    <comp lib="2" loc="(730,880)" name="Multiplexer">
-      <a name="width" val="24"/>
-    </comp>
-    <comp lib="0" loc="(700,730)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="24"/>
-      <a name="label" val="5"/>
-    </comp>
-    <comp lib="2" loc="(730,480)" name="Multiplexer">
-      <a name="width" val="24"/>
-    </comp>
-    <comp lib="4" loc="(1220,300)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-0
-</a>
-    </comp>
-    <comp lib="0" loc="(1220,780)" name="Tunnel">
-      <a name="width" val="24"/>
-      <a name="label" val="6"/>
-    </comp>
-    <comp lib="0" loc="(260,310)" name="Pin">
-      <a name="width" val="2"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Register address"/>
-    </comp>
-    <comp lib="0" loc="(390,200)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Reset  tree"/>
-    </comp>
-    <comp lib="4" loc="(510,550)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-7b0000
-</a>
-    </comp>
-    <comp lib="1" loc="(840,860)" name="OR Gate">
-      <a name="width" val="24"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1220,700)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-4e
-</a>
-    </comp>
-    <comp lib="0" loc="(1220,460)" name="Tunnel">
-      <a name="width" val="24"/>
-      <a name="label" val="2"/>
-    </comp>
-    <comp lib="0" loc="(850,860)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Out 7"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(840,540)" name="OR Gate">
-      <a name="width" val="24"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(290,320)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="2"/>
-      <a name="label" val="Address"/>
-    </comp>
-    <comp lib="0" loc="(850,620)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Out 4"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1060,300)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="2"/>
-      <a name="label" val="Address"/>
-    </comp>
-    <comp lib="0" loc="(850,380)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="24"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Out 1"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(1220,460)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-cc
-</a>
-    </comp>
-    <comp lib="0" loc="(700,410)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="24"/>
-      <a name="label" val="1"/>
-    </comp>
-    <comp lib="1" loc="(840,700)" name="OR Gate">
-      <a name="width" val="24"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="2" loc="(730,800)" name="Multiplexer">
-      <a name="width" val="24"/>
-    </comp>
-    <comp lib="0" loc="(1220,860)" name="Tunnel">
-      <a name="width" val="24"/>
-      <a name="label" val="7"/>
-    </comp>
-    <comp lib="0" loc="(700,570)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="24"/>
-      <a name="label" val="3"/>
-    </comp>
-    <comp lib="0" loc="(1220,620)" name="Tunnel">
-      <a name="width" val="24"/>
-      <a name="label" val="4"/>
-    </comp>
-    <comp lib="2" loc="(730,400)" name="Multiplexer">
-      <a name="width" val="24"/>
-    </comp>
-    <comp lib="0" loc="(700,490)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="24"/>
-      <a name="label" val="2"/>
-    </comp>
-    <comp lib="4" loc="(510,310)" name="ROM">
-      <a name="addrWidth" val="2"/>
-      <a name="dataWidth" val="24"/>
-      <a name="contents">addr/data: 2 24
-0
-</a>
-    </comp>
     <comp lib="4" loc="(510,470)" name="ROM">
       <a name="addrWidth" val="2"/>
       <a name="dataWidth" val="24"/>
       <a name="contents">addr/data: 2 24
-330000
+330000 320000 540000
 </a>
+    </comp>
+    <comp lib="2" loc="(730,720)" name="Multiplexer">
+      <a name="width" val="24"/>
     </comp>
     <comp lib="1" loc="(840,780)" name="OR Gate">
       <a name="width" val="24"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1220,620)" name="Tunnel">
+      <a name="width" val="24"/>
+      <a name="label" val="4"/>
     </comp>
     <comp lib="0" loc="(850,460)" name="Pin">
       <a name="facing" val="west"/>
@@ -534,35 +240,329 @@ cc
       <a name="label" val="Out 2"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(480,110)" name="Pin">
-      <a name="facing" val="south"/>
+    <comp lib="0" loc="(850,860)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
       <a name="width" val="24"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="Input"/>
+      <a name="label" val="Out 7"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(510,310)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+0 320000 540000
+</a>
+    </comp>
+    <comp lib="4" loc="(1220,300)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+0 4c 2a
+</a>
+    </comp>
+    <comp lib="0" loc="(700,410)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="24"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="1" loc="(840,860)" name="OR Gate">
+      <a name="width" val="24"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(510,870)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+cc0000 cc0000 480000
+</a>
     </comp>
     <comp lib="2" loc="(730,640)" name="Multiplexer">
       <a name="width" val="24"/>
+    </comp>
+    <comp lib="2" loc="(730,800)" name="Multiplexer">
+      <a name="width" val="24"/>
+    </comp>
+    <comp lib="0" loc="(850,380)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="24"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Out 1"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(260,310)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Register address"/>
+    </comp>
+    <comp lib="1" loc="(840,620)" name="OR Gate">
+      <a name="width" val="24"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(390,140)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Animation Clock"/>
+    </comp>
+    <comp lib="4" loc="(510,390)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+300000 7a0000 fc0000
+</a>
+    </comp>
+    <comp lib="0" loc="(390,180)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Key impulse"/>
+    </comp>
+    <comp lib="0" loc="(710,970)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Key selection"/>
+    </comp>
+    <comp lib="0" loc="(700,330)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="24"/>
+      <a name="label" val="0"/>
+    </comp>
+    <comp lib="2" loc="(730,560)" name="Multiplexer">
+      <a name="width" val="24"/>
+    </comp>
+    <comp lib="2" loc="(730,400)" name="Multiplexer">
+      <a name="width" val="24"/>
+    </comp>
+    <comp lib="2" loc="(730,880)" name="Multiplexer">
+      <a name="width" val="24"/>
+    </comp>
+    <comp lib="1" loc="(840,460)" name="OR Gate">
+      <a name="width" val="24"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(850,620)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="24"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Out 4"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1220,300)" name="Tunnel">
+      <a name="width" val="24"/>
+      <a name="label" val="0"/>
+    </comp>
+    <comp lib="0" loc="(850,700)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="24"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Out 5"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(1220,620)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+7e fe 1f
+</a>
+    </comp>
+    <comp lib="4" loc="(1220,780)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+c c 1e
+</a>
+    </comp>
+    <comp lib="0" loc="(290,320)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="2"/>
+      <a name="label" val="Address"/>
+    </comp>
+    <comp lib="7" loc="(500,150)" name="main"/>
+    <comp lib="2" loc="(730,480)" name="Multiplexer">
+      <a name="width" val="24"/>
+    </comp>
+    <comp lib="0" loc="(1060,300)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="Address"/>
+    </comp>
+    <comp lib="2" loc="(730,320)" name="Multiplexer">
+      <a name="width" val="24"/>
+    </comp>
+    <comp lib="0" loc="(1220,700)" name="Tunnel">
+      <a name="width" val="24"/>
+      <a name="label" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1220,780)" name="Tunnel">
+      <a name="width" val="24"/>
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="4" loc="(1220,380)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+c 5e 3f
+</a>
+    </comp>
+    <comp lib="0" loc="(390,200)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Reset  tree"/>
+    </comp>
+    <comp lib="0" loc="(700,650)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="24"/>
+      <a name="label" val="4"/>
+    </comp>
+    <comp lib="0" loc="(700,730)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="24"/>
+      <a name="label" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1220,380)" name="Tunnel">
+      <a name="width" val="24"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1220,460)" name="Tunnel">
+      <a name="width" val="24"/>
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1220,540)" name="Tunnel">
+      <a name="width" val="24"/>
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="0" loc="(700,570)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="24"/>
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="0" loc="(850,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="24"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Out 0"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(510,790)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+300000 300000 780000
+</a>
     </comp>
     <comp lib="1" loc="(840,380)" name="OR Gate">
       <a name="width" val="24"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(1220,700)" name="Tunnel">
+    <comp lib="4" loc="(510,710)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+720000 720000 ff0000
+</a>
+    </comp>
+    <comp lib="4" loc="(1220,540)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+de 5e 36
+</a>
+    </comp>
+    <comp lib="4" loc="(1220,700)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+4e 4e ff
+</a>
+    </comp>
+    <comp lib="0" loc="(700,490)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="width" val="24"/>
-      <a name="label" val="5"/>
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1220,860)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+33 33 12
+</a>
+    </comp>
+    <comp lib="0" loc="(700,890)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="24"/>
+      <a name="label" val="7"/>
+    </comp>
+    <comp lib="0" loc="(850,780)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="24"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Out 6"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="1" loc="(820,300)" name="OR Gate">
       <a name="width" val="24"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(1220,380)" name="ROM">
+    <comp lib="0" loc="(850,540)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="24"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Out 3"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(1220,460)" name="ROM">
       <a name="addrWidth" val="2"/>
       <a name="dataWidth" val="24"/>
       <a name="contents">addr/data: 2 24
-c
+cc 4c 2a
 </a>
+    </comp>
+    <comp lib="1" loc="(840,540)" name="OR Gate">
+      <a name="width" val="24"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1220,860)" name="Tunnel">
+      <a name="width" val="24"/>
+      <a name="label" val="7"/>
+    </comp>
+    <comp lib="1" loc="(840,700)" name="OR Gate">
+      <a name="width" val="24"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(480,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="width" val="24"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input"/>
+    </comp>
+    <comp lib="4" loc="(510,630)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+7e0000 7f0000 f80000
+</a>
+    </comp>
+    <comp lib="4" loc="(510,550)" name="ROM">
+      <a name="addrWidth" val="2"/>
+      <a name="dataWidth" val="24"/>
+      <a name="contents">addr/data: 2 24
+7b0000 7a0000 6c0000
+</a>
+    </comp>
+    <comp lib="0" loc="(700,810)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="24"/>
+      <a name="label" val="6"/>
     </comp>
   </circuit>
 </project>

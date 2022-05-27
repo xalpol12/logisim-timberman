@@ -65,7 +65,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </appear>
     <wire from="(530,240)" to="(530,250)"/>
     <wire from="(550,160)" to="(550,170)"/>
-    <wire from="(500,170)" to="(500,300)"/>
     <wire from="(200,280)" to="(260,280)"/>
     <wire from="(200,230)" to="(260,230)"/>
     <wire from="(480,150)" to="(530,150)"/>
@@ -77,7 +76,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(460,170)" to="(460,190)"/>
     <wire from="(540,160)" to="(540,190)"/>
     <wire from="(370,240)" to="(470,240)"/>
-    <wire from="(500,320)" to="(500,350)"/>
     <wire from="(300,250)" to="(530,250)"/>
     <wire from="(170,230)" to="(200,230)"/>
     <wire from="(470,170)" to="(500,170)"/>
@@ -86,16 +84,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(370,120)" to="(520,120)"/>
     <wire from="(200,230)" to="(200,280)"/>
     <wire from="(520,130)" to="(530,130)"/>
+    <wire from="(500,170)" to="(500,350)"/>
     <wire from="(370,140)" to="(450,140)"/>
     <wire from="(370,160)" to="(450,160)"/>
     <wire from="(300,280)" to="(370,280)"/>
     <comp lib="3" loc="(300,290)" name="Comparator">
       <a name="width" val="14"/>
     </comp>
-    <comp lib="1" loc="(460,190)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="2" loc="(480,150)" name="Multiplexer"/>
+    <comp lib="0" loc="(260,300)" name="Constant">
+      <a name="width" val="14"/>
+      <a name="value" val="0x64"/>
+    </comp>
+    <comp lib="0" loc="(370,120)" name="Clock">
+      <a name="highDuration" val="40"/>
+      <a name="lowDuration" val="30"/>
+      <a name="label" val="Easy"/>
     </comp>
     <comp lib="0" loc="(620,140)" name="Pin">
       <a name="facing" val="west"/>
@@ -103,10 +107,34 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Clk timebar"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(260,300)" name="Constant">
-      <a name="width" val="14"/>
-      <a name="value" val="0x64"/>
+    <comp lib="0" loc="(500,350)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Stop"/>
     </comp>
+    <comp lib="1" loc="(540,190)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(530,220)" name="NOT Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(460,190)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="3" loc="(300,240)" name="Comparator">
+      <a name="width" val="14"/>
+    </comp>
+    <comp lib="0" loc="(170,230)" name="Pin">
+      <a name="width" val="14"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Points value"/>
+    </comp>
+    <comp lib="2" loc="(560,140)" name="Multiplexer"/>
     <comp lib="0" loc="(260,250)" name="Constant">
       <a name="width" val="14"/>
       <a name="value" val="0x32"/>
@@ -116,43 +144,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="lowDuration" val="20"/>
       <a name="label" val="Medium"/>
     </comp>
-    <comp lib="3" loc="(300,240)" name="Comparator">
-      <a name="width" val="14"/>
-    </comp>
-    <comp lib="2" loc="(480,150)" name="Multiplexer"/>
-    <comp lib="0" loc="(170,230)" name="Pin">
-      <a name="width" val="14"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Points value"/>
-    </comp>
-    <comp lib="1" loc="(530,220)" name="NOT Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="2" loc="(560,140)" name="Multiplexer"/>
     <comp lib="0" loc="(370,160)" name="Clock">
       <a name="highDuration" val="10"/>
       <a name="lowDuration" val="10"/>
       <a name="label" val="Hard"/>
-    </comp>
-    <comp lib="1" loc="(500,300)" name="NOT Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(540,190)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(370,120)" name="Clock">
-      <a name="highDuration" val="40"/>
-      <a name="lowDuration" val="30"/>
-      <a name="label" val="Easy"/>
-    </comp>
-    <comp lib="0" loc="(500,350)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Stop"/>
     </comp>
   </circuit>
 </project>
