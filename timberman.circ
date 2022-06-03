@@ -95,107 +95,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(260,190)" to="(260,240)"/>
     <wire from="(490,670)" to="(490,730)"/>
     <wire from="(670,730)" to="(680,730)"/>
-    <comp lib="7" loc="(400,450)" name="main"/>
-    <comp lib="5" loc="(300,190)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(530,710)" name="Keyboard"/>
-    <comp lib="0" loc="(220,100)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="H3"/>
-      <a name="labelfont" val="SansSerif plain 6"/>
-    </comp>
-    <comp lib="5" loc="(260,100)" name="Hex Digit Display"/>
-    <comp lib="6" loc="(603,748)" name="Text">
-      <a name="text" val="Sterowanie"/>
-      <a name="font" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="5" loc="(300,240)" name="DotMatrix">
-      <a name="matrixcols" val="32"/>
-      <a name="matrixrows" val="1"/>
-    </comp>
-    <comp lib="6" loc="(703,190)" name="Text">
-      <a name="text" val="Rekomendowana częstotliwość tick frequency to 256 Hz"/>
-      <a name="font" val="SansSerif plain 16"/>
-    </comp>
-    <comp lib="0" loc="(180,300)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="H3"/>
-      <a name="labelfont" val="SansSerif plain 6"/>
-    </comp>
-    <comp lib="0" loc="(180,100)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="H4"/>
-      <a name="labelfont" val="SansSerif plain 6"/>
-    </comp>
-    <comp lib="5" loc="(220,190)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(180,100)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(130,440)" name="Button">
-      <a name="color" val="#1bff00"/>
-      <a name="label" val="Start/stop"/>
-      <a name="labelloc" val="west"/>
-    </comp>
     <comp lib="6" loc="(117,396)" name="Text">
       <a name="text" val="1 - zegar włączony"/>
     </comp>
-    <comp lib="5" loc="(170,520)" name="Button">
-      <a name="label" val="Standard"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="5" loc="(170,560)" name="Button">
-      <a name="label" val="Kosmita"/>
-      <a name="labelloc" val="west"/>
-    </comp>
-    <comp lib="6" loc="(244,25)" name="Text">
-      <a name="text" val="Najwyższy wynik"/>
-      <a name="font" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="5" loc="(170,540)" name="Button">
-      <a name="label" val="Napoleon"/>
-      <a name="labelloc" val="west"/>
+    <comp lib="7" loc="(400,450)" name="main"/>
+    <comp lib="6" loc="(1162,381)" name="Text">
+      <a name="text" val="Sonda nad przyciskiem musi wskazywać &quot;1&quot;"/>
+      <a name="font" val="SansSerif plain 16"/>
     </comp>
     <comp lib="0" loc="(130,410)" name="Probe"/>
-    <comp lib="0" loc="(260,100)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="width" val="4"/>
-      <a name="label" val="H2"/>
-      <a name="labelfont" val="SansSerif plain 6"/>
-    </comp>
-    <comp lib="5" loc="(620,250)" name="DotMatrix">
-      <a name="inputtype" val="row"/>
-      <a name="matrixcols" val="24"/>
-      <a name="matrixrows" val="8"/>
-    </comp>
-    <comp lib="6" loc="(241,547)" name="Text">
-      <a name="text" val="Wybór skina"/>
-      <a name="font" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="5" loc="(260,190)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(180,280)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="H4"/>
-      <a name="labelfont" val="SansSerif plain 6"/>
-    </comp>
     <comp lib="6" loc="(227,445)" name="Text">
       <a name="text" val="Start gry"/>
       <a name="font" val="SansSerif plain 18"/>
-    </comp>
-    <comp lib="6" loc="(116,379)" name="Text">
-      <a name="text" val="0 - zegar wyłączony"/>
-    </comp>
-    <comp lib="0" loc="(180,340)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="4"/>
-      <a name="label" val="H1"/>
-      <a name="labelfont" val="SansSerif plain 6"/>
-    </comp>
-    <comp lib="5" loc="(220,100)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(620,330)" name="DotMatrix">
-      <a name="inputtype" val="row"/>
-      <a name="matrixcols" val="24"/>
-      <a name="matrixrows" val="32"/>
     </comp>
     <comp lib="0" loc="(300,100)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -203,16 +114,132 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="H1"/>
       <a name="labelfont" val="SansSerif plain 6"/>
     </comp>
-    <comp lib="6" loc="(604,768)" name="Text">
-      <a name="text" val="klawisze a/A i d/D"/>
+    <comp lib="5" loc="(620,250)" name="DotMatrix">
+      <a name="inputtype" val="row"/>
+      <a name="matrixcols" val="24"/>
+      <a name="matrixrows" val="8"/>
+    </comp>
+    <comp lib="5" loc="(130,440)" name="Button">
+      <a name="color" val="#1bff00"/>
+      <a name="label" val="Start/stop"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="6" loc="(1165,448)" name="Text">
+      <a name="text" val="Sterowanie postacią przy pomocy klawiatury."/>
+      <a name="font" val="SansSerif plain 16"/>
+    </comp>
+    <comp lib="5" loc="(1130,410)" name="Button">
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="5" loc="(170,540)" name="Button">
+      <a name="label" val="Napoleon"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="5" loc="(180,100)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(260,100)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="H2"/>
+      <a name="labelfont" val="SansSerif plain 6"/>
+    </comp>
+    <comp lib="6" loc="(701,198)" name="Text">
+      <a name="text" val="Rekomendowana częstotliwość dla trybu trudnego to 512 Hz"/>
+      <a name="font" val="SansSerif plain 16"/>
+    </comp>
+    <comp lib="6" loc="(1170,501)" name="Text">
+      <a name="text" val="Po osiągnięciu 100 jeszcze bardziej. Powodzenia"/>
+      <a name="font" val="SansSerif plain 16"/>
+    </comp>
+    <comp lib="6" loc="(241,547)" name="Text">
+      <a name="text" val="Wybór skina"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="5" loc="(220,100)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(620,330)" name="DotMatrix">
+      <a name="inputtype" val="row"/>
+      <a name="matrixcols" val="24"/>
+      <a name="matrixrows" val="32"/>
+    </comp>
+    <comp lib="0" loc="(180,300)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="H3"/>
+      <a name="labelfont" val="SansSerif plain 6"/>
+    </comp>
+    <comp lib="5" loc="(180,190)" name="Hex Digit Display"/>
+    <comp lib="6" loc="(603,748)" name="Text">
+      <a name="text" val="Sterowanie"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="5" loc="(530,710)" name="Keyboard"/>
+    <comp lib="0" loc="(180,340)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="H1"/>
+      <a name="labelfont" val="SansSerif plain 6"/>
+    </comp>
+    <comp lib="5" loc="(170,560)" name="Button">
+      <a name="label" val="Kosmita"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="0" loc="(220,100)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="H3"/>
+      <a name="labelfont" val="SansSerif plain 6"/>
     </comp>
     <comp lib="5" loc="(300,100)" name="Hex Digit Display"/>
+    <comp lib="6" loc="(703,168)" name="Text">
+      <a name="text" val="Rekomendowana częstotliwość tick frequency to 256 Hz"/>
+      <a name="font" val="SansSerif plain 16"/>
+    </comp>
+    <comp lib="0" loc="(180,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="H4"/>
+      <a name="labelfont" val="SansSerif plain 6"/>
+    </comp>
+    <comp lib="6" loc="(116,379)" name="Text">
+      <a name="text" val="0 - zegar wyłączony"/>
+    </comp>
+    <comp lib="5" loc="(220,190)" name="Hex Digit Display"/>
+    <comp lib="6" loc="(1167,474)" name="Text">
+      <a name="text" val="Po osiągnięciu 50 punktów zegar przyspieszy."/>
+      <a name="font" val="SansSerif plain 16"/>
+    </comp>
+    <comp lib="5" loc="(300,240)" name="DotMatrix">
+      <a name="matrixcols" val="32"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="0" loc="(180,100)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="width" val="4"/>
+      <a name="label" val="H4"/>
+      <a name="labelfont" val="SansSerif plain 6"/>
+    </comp>
+    <comp lib="6" loc="(1161,349)" name="Text">
+      <a name="text" val="Przed rozpoczęciem gry należy załączyć zasilanie, klikając przysik Start/stop."/>
+      <a name="font" val="SansSerif plain 16"/>
+    </comp>
+    <comp lib="6" loc="(244,25)" name="Text">
+      <a name="text" val="Najwyższy wynik"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
     <comp lib="0" loc="(180,320)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="4"/>
       <a name="label" val="H2"/>
       <a name="labelfont" val="SansSerif plain 6"/>
     </comp>
-    <comp lib="5" loc="(180,190)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(1220,410)" name="Button">
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="5" loc="(170,520)" name="Button">
+      <a name="label" val="Standard"/>
+      <a name="labelloc" val="west"/>
+    </comp>
+    <comp lib="5" loc="(260,190)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(300,190)" name="Hex Digit Display"/>
+    <comp lib="5" loc="(260,100)" name="Hex Digit Display"/>
   </circuit>
 </project>
