@@ -8,7 +8,7 @@
 
 
 #### Do zaimplementowania:
-- [X] Ścinanie drzewa - zresetowanie segmentu drzewa, który został ścięty (working on it - https://www.youtube.com/watch?v=V_wQ7ByCSgw)
+- [X] Ścinanie drzewa - zresetowanie segmentu drzewa, który został ścięty (working on it - https://www.youtube.com/watch?v=5nO7IA1DeeI)
 - [X] Mechanika kolizji
 - [X] Zintegrować licznik punktów i pozostałego czasu z mechaniką gry
 - [X] Game over screen lub zatrzymanie stanu gry w przypadku kolizji z gałęzią lub upływem czasu
